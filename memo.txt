@@ -1,0 +1,23 @@
+
+commit: 異動紀錄
+
+push: 將異動紀錄更新到 remote 端
+
+pull: 將 remote 端的異動紀錄, 同步到 local
+
+stash: 將異動的紀錄, 放在暫存區
+
+reset-soft: 將異動的紀錄放在準備要 commit 的區域
+
+reset-mix: 將異動的紀錄放在正在編輯的區域
+
+reset-hard: 無視目前的異動紀錄, 強制回到某個 commit 的紀錄(新增的檔案不受影響)
+
+cherry-pick: 複製 commit 到當前的 commit 之上
+
+branch: 從某一個 commit 切分支出去
+
+merge: 將分支(function)合併到主要的分支(main/develop)
+
+rebase: 將某個 branch 的所有 commit 以某個 commit 為基礎, 往上搬移該 branch 的所有 commit 紀錄(類似 cherry-pick 所有 commit 的效果), 處理完後, 需要重新強制推送("git push -f")
+
