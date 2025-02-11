@@ -4,13 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="./jquery-3.7.1.min.js"></script>
     <style>
         .table {
             border: solid 1px;
         }
     </style>
+    <script>
+        $(function () {
+            $('#txt').val('title');
+        })
+    </script>
 </head>
 <body>
+    <input type="text" id="txt">
     <table class="table">
         <tr>
             <td>column1</td>
@@ -40,9 +47,26 @@
             </td>
         </tr>
         <tr>
-            <td><input type="text" value="value7"></td>
-            <td><input type="text" value="value8"></td>
-            <td><input type="text" value="value9"></td>
+            <td>
+                <input type="text" value="value7">
+            </td>
+            <td>
+                <input type="text" value="value8">
+            </td>
+            <td>
+                <input type="text" value="value9">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" value="value10">
+            </td>
+            <td>
+                <input type="text" value="value11">
+            </td>
+            <td>
+                <input type="text" value="value12">
+            </td>
         </tr>
     </table>
 </body>
